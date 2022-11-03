@@ -202,44 +202,71 @@ Source: [caniuse.com](https://caniuse.com/colr-v1)
 
 - Variable fonts with colors
 - Gradients can be used
+- The standard that will win (?)
 
 --s--
 
-## Example arabic
+## Example
+
+<div class="box--w100p video--w100p">
+
+<video autoplay="" loop="" muted="" src="https://www.harbortype.com/wp-content/uploads/2018/09/rochercolor-animation.mp4"></video>
+
+</div>
+
+<footer>
+
+Source: [Rocher Color · Harbor Type](https://www.harbortype.com/rocher-color-making-a-variable-color-font/)
+
+</footer>
+
+--s--
+
+## Example in CSS for arabic
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet">
 
-<h1 class="h1--amiri" >Hello</h1>
+<h1 class="h1--amiri" >hello world</h1>
 
-<h1 class="h1--amiri" style="direction: rtl; text-align: start;     letter-spacing: 0; font-family: 'Amiri Quran', serif;    font-feature-settings: normal;">
+<h1 class="h1--amiri h1--amiri-arabic">
 
 لمّا كان الاعتراف بالكرامة المتأصلة في جميع
 
 </h1>
 <br>
 
-<style data-lt-active="false" spellcheck=false contenteditable style="font-size: .45em; line-height: 1.2; font-family: 'IBM Plex Mono', monospace;display: block;white-space: pre;"
+<style >
+
+
+
+.h1--amiri-arabic {
+  direction: rtl; 
+  text-align: start;
+  letter-spacing: 0;
+  font-family: 'Amiri Quran', serif;
+  font-feature-settings: normal;
+}
+
+style:focus {
+  outline: 0 !important;
+}
+
+</style>
+
+<style data-lt-active="false" spellcheck=false contenteditable style="font-size: .45em; line-height: 1.2; font-family: 'IBM Plex Mono', monospace; display: block; white-space: pre;"
 >/* code demo */
 
 .h1--amiri {
-  color: red;
+  color: xxx;
   font-palette: --test-palette;
 }
 
 @font-palette-values --test-palette {
   font-family: "Amiri Quran";
-  override-colors: 0 red, 2 red;
+  override-colors: 0 inherit, 2 inherit;
 }
-</style>
-
-<style >
-
-style:focus {
-    outline: 0 !important;
-}
-
 </style>
 
 <footer>
