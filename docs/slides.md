@@ -23,31 +23,6 @@ _What can we do with COLRv1 fonts?_
 --s--
 
 ```fm
-style: image
-background:
-  image: https://portrait.signalwerk.ch/illustration/2020/rgb/w4000/stefan-huber.jpg
-  position: 50% 40%
-```
-
-## Stefan
-
-<div class="box box--w40p box--bottom box--white box--padding small">
-
-- Developer
-- ❦ Type Designer
-<!-- <small>U+2766 ❦ FLORAL HEART</small> -->
-
-</div>
-
-<footer class="footer--right">
-
-Illustration by [Benjamin Güdel](http://www.guedel.biz/) · 2020
-
-</footer>
-
---s--
-
-```fm
 style: negative
 background: true
 ```
